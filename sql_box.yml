@@ -1,0 +1,13 @@
+---
+
+# Provisioning and configuring sql box
+#
+
+- hosts: localhost
+  roles: 
+     - sql_provisioning
+
+
+- hosts: justcreated
+  roles: 
+     - sql_config

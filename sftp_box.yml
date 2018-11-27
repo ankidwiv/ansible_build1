@@ -1,0 +1,6 @@
+---
+# This playbook will configure the sftp server
+
+ - hosts: localhost
+   roles:
+        - sftp_config

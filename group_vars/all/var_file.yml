@@ -1,0 +1,9 @@
+---
+# this file contain global variables
+#
+#
+inventory_path: ~/.aws/inventory.txt
+aws_region: us-west-2
+aws_zone: us-west-2a
+subnet_id: subnet-308f8057
+keypair_name: ii-prd-keypair
